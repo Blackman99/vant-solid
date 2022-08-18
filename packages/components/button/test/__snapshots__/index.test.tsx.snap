@@ -1,3 +1,0 @@
-// Vitest Snapshot v1
-
-exports[`Button > render 1`] = `"<button>A Button</button>"`;

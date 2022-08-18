@@ -4,8 +4,9 @@ import Button from '../src'
 
 describe('Button', () => {
   test('render', () => {
-    const { container, unmount } = render(() => <Button label="A Button" />)
-    expect(container.innerHTML).toMatchSnapshot()
+    const label = 'A Button'
+    const { container, unmount } = render(() => <Button label={label} />)
+    expect(container.textContent).toBe(label)
     unmount()
   })
 })
