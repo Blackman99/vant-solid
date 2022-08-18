@@ -1,0 +1,23 @@
+{
+  "name": "@vant-solid/button",
+  "version": "0.0.1",
+  "description": "Button component for vant-solid",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [
+    "Vant",
+    "Solid",
+    "SolidJS",
+    "ui components",
+    "components",
+    "solid components",
+    "solid ui components"
+  ],
+  "author": "Dongsheng Zhao",
+  "license": "MIT"
+}
