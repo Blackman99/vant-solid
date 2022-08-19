@@ -26,7 +26,7 @@ const App = () => <VanButton>A Button</VanButton>
 
 ### Install all
 
-```js
+```sh
 npm install 'vant-solid'
 ```
 
